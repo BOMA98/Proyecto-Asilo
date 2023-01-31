@@ -1,0 +1,34 @@
+C:\Users\brandonobed\documents\visual studio 2010\Projects\PIA TP II ASILO\PIA TP II ASILO\bin\Release\PIA TP II ASILO.exe.config
+C:\Users\brandonobed\documents\visual studio 2010\Projects\PIA TP II ASILO\PIA TP II ASILO\bin\Release\PIA TP II ASILO.exe
+C:\Users\brandonobed\documents\visual studio 2010\Projects\PIA TP II ASILO\PIA TP II ASILO\bin\Release\PIA TP II ASILO.pdb
+C:\Users\brandonobed\documents\visual studio 2010\Projects\PIA TP II ASILO\PIA TP II ASILO\obj\x86\Release\PIA_TP_II_ASILO.Login.resources
+C:\Users\brandonobed\documents\visual studio 2010\Projects\PIA TP II ASILO\PIA TP II ASILO\obj\x86\Release\PIA_TP_II_ASILO.MenuPrincipal.resources
+C:\Users\brandonobed\documents\visual studio 2010\Projects\PIA TP II ASILO\PIA TP II ASILO\obj\x86\Release\PIA_TP_II_ASILO.Properties.Resources.resources
+C:\Users\brandonobed\documents\visual studio 2010\Projects\PIA TP II ASILO\PIA TP II ASILO\obj\x86\Release\PIA TP II ASILO.csproj.GenerateResource.Cache
+C:\Users\brandonobed\documents\visual studio 2010\Projects\PIA TP II ASILO\PIA TP II ASILO\obj\x86\Release\PIA TP II ASILO.exe
+C:\Users\brandonobed\documents\visual studio 2010\Projects\PIA TP II ASILO\PIA TP II ASILO\obj\x86\Release\PIA TP II ASILO.pdb
+C:\Users\brandonobed\documents\visual studio 2010\Projects\PIA TP II ASILO\PIA TP II ASILO\obj\x86\Release\PIA_TP_II_ASILO.MenuCentros.resources
+C:\Users\brandonobed\documents\visual studio 2010\Projects\PIA TP II ASILO\PIA TP II ASILO\obj\x86\Release\PIA_TP_II_ASILO.MenuUsuarios.resources
+C:\Users\brandonobed\documents\visual studio 2010\Projects\PIA TP II ASILO\PIA TP II ASILO\obj\x86\Release\PIA_TP_II_ASILO.MensajeNoexiste.resources
+C:\Users\brandonobed\Documents\Visual Studio 2010\Projects\PIA TP II ASILO\PIA TP II ASILO\obj\x86\Release\PIA_TP_II_ASILO.AgregarCentros.resources
+C:\Users\brandonobed\Documents\Visual Studio 2010\Projects\PIA TP II ASILO\PIA TP II ASILO\obj\x86\Release\PIA_TP_II_ASILO.MenuEmpleados.resources
+C:\Users\brandonobed\Documents\Visual Studio 2010\Projects\PIA TP II ASILO\PIA TP II ASILO\obj\x86\Release\PIA_TP_II_ASILO.MenuAdultos.resources
+C:\Users\brandonobed\Documents\Visual Studio 2010\Projects\PIA TP II ASILO\PIA TP II ASILO\obj\x86\Release\PIA_TP_II_ASILO.MenuContactos.resources
+C:\Users\brandonobed\Documents\Visual Studio 2010\Projects\PIA TP II ASILO\PIA TP II ASILO\obj\x86\Release\PIA_TP_II_ASILO.MenuApoyos.resources
+C:\Users\brandonobed\Documents\Visual Studio 2010\Projects\PIA TP II ASILO\PIA TP II ASILO\obj\x86\Release\PIA_TP_II_ASILO.MenuActividades.resources
+C:\Users\brandonobed\documents\visual studio 2010\Projects\PIA TP II ASILO\PIA TP II ASILO\obj\x86\Release\PIA_TP_II_ASILO.MensajeEliminarConfimacion.resources
+C:\Users\brandonobed\documents\visual studio 2010\Projects\PIA TP II ASILO\PIA TP II ASILO\obj\x86\Release\PIA_TP_II_ASILO.MensajeVerificacion.resources
+C:\Users\brandonobed\documents\visual studio 2010\Projects\PIA TP II ASILO\PIA TP II ASILO\obj\x86\Release\PIA_TP_II_ASILO.AgregarActividad.resources
+C:\Users\brandonobed\documents\visual studio 2010\Projects\PIA TP II ASILO\PIA TP II ASILO\obj\x86\Release\PIA_TP_II_ASILO.AgregarApoyos.resources
+C:\Users\brandonobed\documents\visual studio 2010\Projects\PIA TP II ASILO\PIA TP II ASILO\obj\x86\Release\PIA_TP_II_ASILO.AgregarEmpleados.resources
+C:\Users\brandonobed\documents\visual studio 2010\Projects\PIA TP II ASILO\PIA TP II ASILO\obj\x86\Release\PIA_TP_II_ASILO.AgregarTiposEmpleados.resources
+C:\Users\brandonobed\documents\visual studio 2010\Projects\PIA TP II ASILO\PIA TP II ASILO\obj\x86\Release\PIA_TP_II_ASILO.AgregarUsuarios.resources
+C:\Users\brandonobed\documents\visual studio 2010\Projects\PIA TP II ASILO\PIA TP II ASILO\obj\x86\Release\PIA_TP_II_ASILO.MensajeSalir.resources
+C:\Users\brandonobed\documents\visual studio 2010\Projects\PIA TP II ASILO\PIA TP II ASILO\obj\x86\Release\PIA_TP_II_ASILO.AgregarContactos.resources
+C:\Users\brandonobed\documents\visual studio 2010\Projects\PIA TP II ASILO\PIA TP II ASILO\obj\x86\Release\PIA_TP_II_ASILO.AgregarAdultos.resources
+C:\Users\brandonobed\documents\visual studio 2010\Projects\PIA TP II ASILO\PIA TP II ASILO\obj\x86\Release\PIA_TP_II_ASILO.OtorgarApoyos.resources
+C:\Users\brandonobed\documents\visual studio 2010\Projects\PIA TP II ASILO\PIA TP II ASILO\obj\x86\Release\PIA_TP_II_ASILO.AsignarActividadAdulto.resources
+C:\Users\brandonobed\documents\visual studio 2010\Projects\PIA TP II ASILO\PIA TP II ASILO\obj\x86\Release\PIA_TP_II_ASILO.AsignarActividadCentro.resources
+C:\Users\brandonobed\documents\visual studio 2010\Projects\PIA TP II ASILO\PIA TP II ASILO\obj\x86\Release\PIA_TP_II_ASILO.MensajeSalirExit.resources
+C:\Users\brandonobed\Documents\Visual Studio 2010\Projects\PIA TP II ASILO\PIA TP II ASILO\obj\x86\Release\PIA_TP_II_ASILO.Ayuda.resources
+C:\Users\brandonobed\Documents\Visual Studio 2010\Projects\PIA TP II ASILO\PIA TP II ASILO\obj\x86\Release\PIA_TP_II_ASILO.AcercadeNosotros.resources

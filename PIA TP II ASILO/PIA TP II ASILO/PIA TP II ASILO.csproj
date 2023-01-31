@@ -1,0 +1,488 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2127EECF-31DA-4754-9B72-F94CA9AA74B7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PIA_TP_II_ASILO</RootNamespace>
+    <AssemblyName>PIA TP II ASILO</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Oracle.DataAccess, Version=10.2.0.100, Culture=neutral, PublicKeyToken=89b483f429c47342">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\oraclexe\app\oracle\product\10.2.0\server\BIN\Oracle.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AcercadeNosotros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AcercadeNosotros.Designer.cs">
+      <DependentUpon>AcercadeNosotros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarActividad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarActividad.Designer.cs">
+      <DependentUpon>AgregarActividad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarAdultos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarAdultos.Designer.cs">
+      <DependentUpon>AgregarAdultos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarApoyos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarApoyos.Designer.cs">
+      <DependentUpon>AgregarApoyos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarCentros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarCentros.Designer.cs">
+      <DependentUpon>AgregarCentros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarContactos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarContactos.Designer.cs">
+      <DependentUpon>AgregarContactos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarEmpleados.Designer.cs">
+      <DependentUpon>AgregarEmpleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarTiposEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarTiposEmpleados.Designer.cs">
+      <DependentUpon>AgregarTiposEmpleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarUsuarios.Designer.cs">
+      <DependentUpon>AgregarUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AsignarActividadAdulto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AsignarActividadAdulto.Designer.cs">
+      <DependentUpon>AsignarActividadAdulto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AsignarActividadCentro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AsignarActividadCentro.Designer.cs">
+      <DependentUpon>AsignarActividadCentro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ayuda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ayuda.Designer.cs">
+      <DependentUpon>Ayuda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MensajeEliminarConfimacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MensajeEliminarConfimacion.Designer.cs">
+      <DependentUpon>MensajeEliminarConfimacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MensajeNoexiste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MensajeNoexiste.Designer.cs">
+      <DependentUpon>MensajeNoexiste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MensajeSalir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MensajeSalir.Designer.cs">
+      <DependentUpon>MensajeSalir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MensajeSalirExit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MensajeSalirExit.Designer.cs">
+      <DependentUpon>MensajeSalirExit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MensajeVerificacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MensajeVerificacion.Designer.cs">
+      <DependentUpon>MensajeVerificacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuActividades.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MenuActividades.Designer.cs">
+      <DependentUpon>MenuActividades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuAdultos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MenuAdultos.Designer.cs">
+      <DependentUpon>MenuAdultos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuApoyos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MenuApoyos.Designer.cs">
+      <DependentUpon>MenuApoyos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuCentros.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MenuCentros.Designer.cs">
+      <DependentUpon>MenuCentros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuContactos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MenuContactos.Designer.cs">
+      <DependentUpon>MenuContactos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuEmpleados.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MenuEmpleados.Designer.cs">
+      <DependentUpon>MenuEmpleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuPrincipal.Designer.cs">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuUsuarios.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MenuUsuarios.Designer.cs">
+      <DependentUpon>MenuUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OtorgarApoyos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OtorgarApoyos.Designer.cs">
+      <DependentUpon>OtorgarApoyos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AcercadeNosotros.resx">
+      <DependentUpon>AcercadeNosotros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarActividad.resx">
+      <DependentUpon>AgregarActividad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarAdultos.resx">
+      <DependentUpon>AgregarAdultos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarApoyos.resx">
+      <DependentUpon>AgregarApoyos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarCentros.resx">
+      <DependentUpon>AgregarCentros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarContactos.resx">
+      <DependentUpon>AgregarContactos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarEmpleados.resx">
+      <DependentUpon>AgregarEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarTiposEmpleados.resx">
+      <DependentUpon>AgregarTiposEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarUsuarios.resx">
+      <DependentUpon>AgregarUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AsignarActividadAdulto.resx">
+      <DependentUpon>AsignarActividadAdulto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AsignarActividadCentro.resx">
+      <DependentUpon>AsignarActividadCentro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ayuda.resx">
+      <DependentUpon>Ayuda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MensajeEliminarConfimacion.resx">
+      <DependentUpon>MensajeEliminarConfimacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MensajeNoexiste.resx">
+      <DependentUpon>MensajeNoexiste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MensajeSalir.resx">
+      <DependentUpon>MensajeSalir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MensajeSalirExit.resx">
+      <DependentUpon>MensajeSalirExit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MensajeVerificacion.resx">
+      <DependentUpon>MensajeVerificacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuActividades.resx">
+      <DependentUpon>MenuActividades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuAdultos.resx">
+      <DependentUpon>MenuAdultos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuApoyos.resx">
+      <DependentUpon>MenuApoyos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuCentros.resx">
+      <DependentUpon>MenuCentros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuContactos.resx">
+      <DependentUpon>MenuContactos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuEmpleados.resx">
+      <DependentUpon>MenuEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuPrincipal.resx">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuUsuarios.resx">
+      <DependentUpon>MenuUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtorgarApoyos.resx">
+      <DependentUpon>OtorgarApoyos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\id-card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\house.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\substract.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\id-card2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\network.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\garbage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backspace-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\house %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forbidden.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\couple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contact.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\like.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\runner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warningMensaje.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jigsaw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\social-care %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\man %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exchange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\employees.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\interview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contacts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grandparents.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\solidarity.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wheel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\solution.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\question.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
